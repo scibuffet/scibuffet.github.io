@@ -20,7 +20,8 @@ header{
 
 .nav-link{
 	background-color:rgb(240,240,240);
-	border:2px solid black;
+	border:1px solid blue;
+	box-shadow: 0 0 10px blue;
 	display:inline-block;
 	min-width:14vw;
 	padding:7px;
@@ -40,7 +41,8 @@ a{
 p.nav-link:hover{
 	background-image:none;
 	background-color:white;
-	border-color:yellow;
+	
+	border:1px solid yellow;
 	box-shadow: 0 0 10px yellow;
 }
 
