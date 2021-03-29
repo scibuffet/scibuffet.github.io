@@ -20,7 +20,6 @@ header{
 
 .nav-link{
 	background-color:rgb(240,240,240);
-	border:1px solid blue;
 	box-shadow: 0 0 10px blue;
 	display:inline-block;
 	min-width:14vw;
