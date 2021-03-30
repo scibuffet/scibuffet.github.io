@@ -5,7 +5,8 @@ body{
 }
 
 header{
-	background-color:rgb(100,71,143);
+	background-image:url('assets/head.jpg');
+	background-size:cover;
 	min-height:20vh;
 	border-radius:10px; 
 	color:white;
