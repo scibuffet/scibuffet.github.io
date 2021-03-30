@@ -1,6 +1,7 @@
 body{
-	font-family:'Inconsolata';
+	font-family:'Open Sans','Inconsolata',sans-serif;
 	padding:5px;
+	font-size:1.35rem;
 }
 
 header{
@@ -32,7 +33,7 @@ header h1{
 	display:block;
 	background-color:rgb(230,230,230);
 	box-shadow: 0 0 10px blue;
-	min-width:14vw;
+	min-width:18vw;
 	padding:7px;
 	text-align:center;
 	border-radius:5px;
@@ -40,6 +41,7 @@ header h1{
 	font-style:none;
 	margin-top:0;
 	text-shadow: 0 0 5px rgb(150,150,150);
+	font-size:1.15rem;
 }
 
 a{
@@ -63,8 +65,8 @@ a{
 section{
 	background-color:rgb(252,244,255);
 	padding-bottom: 2vh;
-	padding-right:10px;
-	padding-left:10px;
+	padding-right:15px;
+	padding-left:15px;
 	padding-top:.5vh;
 	border:2px solid black;
 	border-radius:5px;
@@ -75,7 +77,8 @@ section{
 
 .landing{
 	display:block;
-	background-color:rgb(10,10,30);
+	background-image:url('/assets/head2.png');
+	background-size:cover;
 	border-radius:10px;
 }
 
