@@ -33,8 +33,12 @@ let vanishLanding = ()=>{
 
 let vanishManager = ()=>{
 	let timer = setInterval(vanishLanding,100);
-	let clearTimer = ()=> clearInterval(timer);
-	setTimeout(clearTimer, 4000);
+	let clearTimer = ()=> {
+		clearInterval(timer);
+		let landing = document.querySelector('.landing');
+		landing.style.display='none';
+	}
+	setTimeout(clearTimer, 2000);
 }
 
 setTimeout(vanishManager,4500);
