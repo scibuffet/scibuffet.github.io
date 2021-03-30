@@ -53,7 +53,7 @@ a{
 }
 
 .nav-link a:hover{
-	background-color:rgb(150,150,200);
+	background-color:rgb(150,150,220);
 	color:white;
 	border:1px solid white;
 	box-shadow: 0 0 10px white;
