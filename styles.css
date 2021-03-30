@@ -15,6 +15,7 @@ header{
 	justify-content:center;
 	border: 3px solid black;
 	text-shadow: 0 0 15px #000;
+	display:none;
 }
 
 
@@ -54,4 +55,24 @@ section{
 	border:2px solid black;
 	border-radius:5px;
 	margin: 2vh 0;
+	display:none;
+}
+
+.landing{
+	display:block;
+	background-color:rgb(10,10,30);
+	border-radius:10px;
+}
+
+svg{
+  position:absolute;
+  top:50vh;
+  left:50vw;
+  transform: translate(-50%,-50%);
+}
+
+@keyframes textLoad{
+	to{
+		stroke-dashoffset:0;
+	}
 }
