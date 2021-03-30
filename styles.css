@@ -5,7 +5,7 @@ body{
 }
 
 header{
-	background-color:rgb(170,120,240);
+	background-color:rgb(100,71,143);
 	min-height:20vh;
 	border-radius:10px; 
 	color:white;
@@ -23,11 +23,14 @@ header h1{
 	font-size:300%;
 }
 
-
 .nav-link{
-	background-color:rgb(240,240,240);
-	box-shadow: 0 0 10px blue;
 	display:inline-block;
+}
+
+.nav-link a{
+	display:block;
+	background-color:rgb(230,230,230);
+	box-shadow: 0 0 10px blue;
 	min-width:14vw;
 	padding:7px;
 	text-align:center;
@@ -43,12 +46,17 @@ a{
 	font-weight:bold;
 }
 
-p.nav-link:hover{
-	background-image:none;
+.active a{
 	background-color:white;
-	
 	border:1px solid yellow;
 	box-shadow: 0 0 10px yellow;
+}
+
+.nav-link a:hover{
+	background-color:rgb(150,150,220);
+	color:white;
+	border:1px solid white;
+	box-shadow: 0 0 10px white;
 }
 
 section{
