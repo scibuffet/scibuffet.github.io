@@ -77,7 +77,8 @@ section{
 
 .landing{
 	display:block;
-	background-color:rgb(10,10,30);
+	background-image:url('/assets/head2.png');
+	background-size:cover;
 	border-radius:10px;
 }
 
