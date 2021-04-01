@@ -17,7 +17,9 @@ for(let i=0; i<paths.length; i++){
 let displayAll = ()=>{
 	let header = document.querySelector('header');
 	let sections = document.querySelectorAll('section');
+	let footer = document.querySelector('footer');
 	header.style.display='flex';
+	footer.style.display='flex';
 	for (sec of sections){
 		sec.style.display='block';
 	}
