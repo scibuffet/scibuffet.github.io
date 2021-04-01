@@ -105,16 +105,20 @@ footer{
 	display:none;
 	color: white;
 	flex-direction:row;
-	background-color:rgb(70,100,220);
+	background-color:rgb(120,70,220);
 	border: 3px solid black;
 	border-radius:10px;
 	padding: 2vh;
 	align-items:center;
 	justify-content:flex-start;
+	box-shadow:0 0 7px black;
+	text-shadow:0 0 6px rgb(10,10,100);
+	
 }
 
 .left{
 	width:50vw;
+	text-shadow:0 0 12px black;
 }
 
 .left h2{
@@ -130,5 +134,5 @@ footer{
 
 .right a{
 	margin-right:2vw;
-	color:rgb(20,20,120);
+	color:rgb(10,10,100);
 }
