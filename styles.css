@@ -25,12 +25,6 @@ header h1{
 	font-size:3.5rem;
 }
 
-@media screen and (min-width:500px){
-	header h1{
-		font-size:5rem;
-	}
-}
-
 .nav-link{
 	display:inline-block;
 }
@@ -127,11 +121,19 @@ footer{
 .right{
 	display:flex;
 	width:50vw;
-	justify-content:center;
+	justify-content:flex-end;
 	align-items:center;
 }
 
 .right a{
 	margin-right:2vw;
 	color:rgb(10,10,100);
+	
+}
+
+@media screen and (min-width:500px){
+	header h1{
+		font-size:5rem;
+	}
+	
 }
