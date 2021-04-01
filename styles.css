@@ -100,3 +100,35 @@ svg{
 		stroke-dashoffset:0;
 	}
 }
+
+footer{
+	display:none;
+	color: white;
+	flex-direction:row;
+	background-color:rgb(70,100,220);
+	border: 3px solid black;
+	border-radius:10px;
+	padding: 2vh;
+	align-items:center;
+	justify-content:flex-start;
+}
+
+.left{
+	width:50vw;
+}
+
+.left h2{
+	margin-top:0vh;
+}
+
+.right{
+	display:flex;
+	width:50vw;
+	justify-content:center;
+	align-items:center;
+}
+
+.right a{
+	margin-right:2vw;
+	color:rgb(20,20,120);
+}
