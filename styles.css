@@ -135,5 +135,22 @@ footer{
 	header h1{
 		font-size:5rem;
 	}
-	
+}
+
+.tab-desktop{
+	display:flex;
+	align-items:center;
+	padding:2vh;
+}
+
+.mobile{
+	display:block;
+}
+
+.tab-desktop .sec-head{
+	width:30vw;
+	padding-right:10vh;
+}
+.tab-desktop .sec-body{
+	width:70vw;
 }
