@@ -20,9 +20,18 @@ let displayAll = ()=>{
 	let footer = document.querySelector('footer');
 	header.style.display='flex';
 	footer.style.display='flex';
-	for (sec of sections){
-		sec.style.display='block';
-	}
+	setInterval(()=>{
+		for (sec of sections){
+			if (window.innerWidth>500){
+				sec.classList.add('tab-desktop');
+				sec.classList.remove('mobile');
+			}
+			else{
+				sec.classList.add('mobile');
+				sec.classList.remove('tab-desktop');
+			}
+		}
+	},300);
 }
 setTimeout(displayAll,6500);
 
