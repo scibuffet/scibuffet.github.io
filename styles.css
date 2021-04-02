@@ -2,6 +2,7 @@ body{
 	font-family:'Open Sans','Inconsolata',sans-serif;
 	padding:1vw;
 	font-size:1.15rem;
+	line-height:1.5;
 }
 
 header{
@@ -96,8 +97,9 @@ svg{
 }
 
 footer{
-	display:none;
+	min-height:30vh;
 	color: white;
+	display:none;
 	flex-direction:row;
 	background-color:rgb(120,70,220);
 	border: 3px solid black;
@@ -140,7 +142,8 @@ footer{
 .tab-desktop{
 	display:flex;
 	align-items:center;
-	padding:2vh;
+	padding:4vh;
+	line-height:1.8;
 }
 
 .mobile{
@@ -151,6 +154,7 @@ footer{
 	width:30vw;
 	padding-right:10vh;
 }
+
 .tab-desktop .sec-body{
 	width:70vw;
 }
