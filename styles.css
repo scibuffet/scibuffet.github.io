@@ -84,10 +84,10 @@ section{
 }
 
 svg{
-  position:absolute;
-  top:50vh;
-  left:50vw;
-  transform: translate(-50%,-50%);
+	position:absolute;
+	top:50vh;
+	left:50vw;
+	transform: translate(-50%,-50%);
 }
 
 @keyframes textLoad{
@@ -100,20 +100,31 @@ footer{
 	min-height:30vh;
 	color: white;
 	display:none;
-	flex-direction:row;
+	flex-direction:column;
 	background-color:rgb(120,70,220);
 	border: 3px solid black;
 	border-radius:10px;
 	padding: 2vh;
 	align-items:center;
-	justify-content:flex-start;
+	justify-content:center;
 	box-shadow:0 0 7px black;
 	
 }
 
+.row{
+	display:flex;
+	width:94vw;
+	padding:2vh;
+	align-items:center;
+	justify-content:center;
+}
+
 .left{
-	width:50vw;
+	width:47vw;
 	text-shadow:0 0 12px black;
+	display:flex;
+	flex-direction:column;
+	margin-left:2vh;
 }
 
 .left h2{
@@ -122,8 +133,9 @@ footer{
 
 .right{
 	display:flex;
-	width:50vw;
+	width:47vw;
 	justify-content:flex-end;
+	
 	align-items:center;
 }
 
