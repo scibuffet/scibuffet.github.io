@@ -63,3 +63,23 @@ let loadManager = (homepage)=>{
 		displayAll();
 	}
 }
+
+
+let manageStickyHead = ()=>{
+	setInterval(()=>{
+		let body = document.querySelector('body');
+		let scrolledDist = body.scrollTop;
+		
+		let welcome = document.querySelector('#welcome');
+		let welcomeOffset = welcome.offsetTop;
+		
+		let stickyHead = document.querySelector('#sticky-head');
+		
+		if (scrolledDist > 0 && scrolledDist > (welcomeOffset - window.innerHeight/50)){
+			stickyHead.style.display = 'flex';
+		}
+		else if (scrolledDist === 0 || scrolledDist < (welcomeOffset - window.innerHeight/50)){
+			stickyHead.style.display = 'none';
+		}
+	},100);
+}
