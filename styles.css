@@ -63,6 +63,35 @@ a{
 	box-shadow: 0 0 10px white;
 }
 
+#sticky-head{
+	min-height:5vh;
+	width:93vw;
+	color: white;
+	display:none;
+	flex-direction:row;
+	background-color:rgb(120,70,220);
+	border: 3px solid black;
+	border-radius:10px;
+	padding: 1vh 0;
+	align-items:flex-end;
+	justify-content:center;
+	box-shadow:0 0 7px black;
+	position:fixed;
+	top:4vw;
+	opacity:.9;
+}
+
+#sticky-head:hover{
+	opacity:1;
+}
+
+#sticky-head i{
+	width:10vw;
+	margin-right:10vw;
+	margin-left:10vw;
+
+}
+
 section{
 	background-color:rgb(252,244,255);
 	padding-bottom: 25px;
