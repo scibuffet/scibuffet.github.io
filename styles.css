@@ -3,6 +3,7 @@ body{
 	padding:1vw;
 	font-size:1.15rem;
 	line-height:1.5;
+	background-color:rgb(5,5,10);
 }
 
 header{
@@ -73,7 +74,7 @@ a{
 	color: white;
 	display:none;
 	flex-direction:row;
-	background-color:rgb(120,70,220);
+	background-color:rgb(25,25,120);
 	border: 3px solid black;
 	border-radius:10px;
 	padding: 1vh 0;
@@ -96,8 +97,13 @@ a{
 
 }
 
+#sticky-head .active{
+	color:white;
+}
+
 section{
-	background-color:rgb(252,244,255);
+	background-color:rgb(10,10,53);
+	color:white;
 	padding-bottom: 25px;
 	padding-right:15px;
 	padding-left:15px;
@@ -122,7 +128,6 @@ section{
 	justify-content:flex-start;
 	min-height:16vh;
 	font-weight:bold;
-	color:rgb(120,70,220);
 	font-variant:small-caps;
 }
 
@@ -159,7 +164,7 @@ footer{
 	color: white;
 	display:none;
 	flex-direction:column;
-	background-color:rgb(120,70,220);
+	background-color:rgb(25,25,120);
 	border: 3px solid black;
 	border-radius:10px;
 	padding: 2vh;
@@ -175,6 +180,11 @@ footer{
 	padding:2vh;
 	align-items:center;
 	justify-content:center;
+}
+
+.row.to-top a{
+	color:white;
+	text-shadow:0 0 10px blue;
 }
 
 .left{
@@ -193,13 +203,12 @@ footer{
 	display:flex;
 	width:47vw;
 	justify-content:flex-end;
-	
 	align-items:center;
 }
 
 .right a{
 	margin-right:2vw;
-	color:rgb(10,10,100);
+	color:rgb(120,70,220);
 	
 }
 
