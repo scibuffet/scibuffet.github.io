@@ -3,7 +3,6 @@ body{
 	padding:1vw;
 	font-size:1.15rem;
 	line-height:1.5;
-	background-color:black;
 }
 
 header{
@@ -74,12 +73,12 @@ a{
 	display:none;
 	flex-direction:row;
 	background-color:#191978;
-	border: 3px solid black;
+	border: 3px solid rgb(100,100,200);
 	border-radius:10px;
 	padding: 1vh 0;
 	align-items:flex-end;
 	justify-content:center;
-	box-shadow:0 0 7px black;
+	box-shadow:0 0 7px rgb(100,100,200);
 	position:fixed;
 	top:0.8vh;
 	opacity:.9;
@@ -112,7 +111,7 @@ section{
 	padding-left:15px;
 	padding-top:1px;
 	border:2px solid rgb(100,100,200);
-	border-radius:5px;
+	border-radius:10px;
 	box-shadow:0 0 7px rgb(100,100,200);
 	margin: 2vh 0;
 	display:none;
@@ -130,8 +129,6 @@ section{
 	align-items:center;
 	justify-content:flex-start;
 	min-height:16vh;
-	font-weight:bold;
-	font-variant:small-caps;
 }
 
 .library .sec-icon{
@@ -140,6 +137,7 @@ section{
 }
 
 .sec-title{
+	font-size:1.2rem;
 }
 
 .landing{
@@ -180,7 +178,7 @@ footer{
 .row{
 	display:flex;
 	width:94vw;
-	padding:2vh;
+	padding:2vh 0;
 	align-items:center;
 	justify-content:center;
 }
@@ -204,7 +202,8 @@ footer{
 
 .right{
 	display:flex;
-	width:47vw;
+	width:46vw;
+	padding-right:1vw;
 	justify-content:flex-end;
 	align-items:center;
 }
