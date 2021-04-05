@@ -109,11 +109,22 @@ section{
 	box-shadow: 0 0 7px black;
 }
 
-.library.sec-body{
+.library{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	padding-bottom:1px;
+}
+
+.library .sec-body{
 	display:flex;
 	align-items:center;
 	justify-content:flex-start;
-	min-height:10vh;
+	min-height:13vh;
+	font-weight:bold;
+	color:rgb(120,70,220);
+	text-shadow: 0 0 2px rgb(120,70,220);
 }
 
 .library .sec-icon{
