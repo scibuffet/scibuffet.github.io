@@ -20,13 +20,99 @@
 			</nav>
 		</header>
 		
+		<div id='sticky-head'>
+			<a href='#header' style="color:white"><i class="fas fa-2x fa-home"></i></a>
+			<a href='./library.html'><i class="fas fa-2x fa-book-open"></i></a>
+			<a href='./about.html'><i class="fas fa-2x fa-question-circle"></i></a>
+		</div>
 		
+		<section id='physics'>
+			<div class='library sec-body'>
+				<div class='sec-icon'>
+					<i class="fas fa-3x fa-atom"></i>
+				</div>
+				<div class='sec-title'>
+					Physics
+				</div>
+			</div>
+		</section>
+
+		<section id='chemistry'>
+			<div class='library sec-body'>
+				<div class='sec-icon'>
+					<i class="fas fa-2x fa-vials"></i>
+				</div>
+				<div class='sec-title'>
+					Chemistry
+				</div>
+			</div>
+		</section>
+		
+		<section id='maths'>
+			<div class='library sec-body'>
+				<div class='sec-icon'>
+					<i class="fas fa-2x fa-infinity"></i>
+				</div>
+				<div class='sec-title'>
+					Mathematics
+				</div>
+			</div>
+		</section>
+		
+		<section id='biology'>
+			<div class='library sec-body'>
+				<div class='sec-icon'>
+					<i class="fas fa-3x fa-dna"></i>
+				</div>
+				<div class='sec-title'>
+					Biology
+				</div>
+			</div>
+		</section>
+		
+		<section id='medicine'>
+			<div class='library sec-body'>
+				<div class='sec-icon'>
+					<i class="fas fa-3x fa-notes-medical"></i>
+				</div>
+				<div class='sec-title'>
+					Medicine
+				</div>
+			</div>
+		</section>
+		
+		<section id='compsci'>
+			<div class='library sec-body'>
+				<div class='sec-icon'>
+					<i class="fas fa-2x fa-code"></i>
+				</div>
+				<div class='sec-title'>
+					Computer Science
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			<div class='row'>
+				<div class="left">
+					<h2>Want to get in touch?</h2>
+					<p>Hit us up!</p>
+				</div>
+				<div class="right">
+					<a href='https://facebook.com/SciBuffet' target='_blank'><i class="fab fa-3x fa-facebook-square"></i></a>
+					<a name="mail" href='mailto:the.scibuffet@gmail.com' ><i class="far fa-3x fa-envelope"></i></a>
+				</div>
+			</div>
+			<div class='row'>
+				<a href='#header' style='text-shadow:none;'>Back to top</a>
+			</div>
+		</footer>
 		
 		<script src='./app.js'></script>
 		<script src="https://kit.fontawesome.com/a3a9954077.js" crossorigin="anonymous"></script>
 		<script>
 			manageLoad(homepage=false);
-			manageStickyHead();
+			manageStickyHead(1);
 		</script>
 	</body>
 </html>

@@ -109,6 +109,17 @@ section{
 	box-shadow: 0 0 7px black;
 }
 
+.library,.sec-body{
+	display:flex;
+	align-items:center;
+	justify-content:flex-start;
+	min-height:10vh;
+}
+
+.library .sec-icon{
+	width:18vw;
+}
+
 .landing{
 	display:block;
 	background-image:url('/assets/head2.png');
