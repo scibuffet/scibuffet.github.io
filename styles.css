@@ -109,7 +109,7 @@ section{
 	box-shadow: 0 0 7px black;
 }
 
-.library,.sec-body{
+.library.sec-body{
 	display:flex;
 	align-items:center;
 	justify-content:flex-start;
