@@ -6,7 +6,7 @@ body{
 }
 
 header{
-	background-image:url('assets/head3.jpg');
+	background-image:url('assets/head2.jpg');
 	background-size:cover;
 	min-height:20vh;
 	border-radius:10px; 
@@ -15,10 +15,10 @@ header{
 	flex-direction:column;
 	align-items:center;
 	justify-content:center;
-	border: 3px solid rgb(100,100,200);
+	border: 3px solid rgb(100,100,100);
 	text-shadow: 0 0 15px blue;
 	display:none;
-	box-shadow:0 0 10px rgb(100,100,200);
+	box-shadow:0 0 10px rgb(100,100,100);
 }
 
 header h1{
@@ -61,7 +61,7 @@ a{
 }
 
 .nav-link a:hover{
-	background-color:rgb(150,150,220);
+	background-color:rgb(150,150,150);
 	color:white;
 	border:1px solid white;
 	box-shadow: 0 0 10px white;
@@ -72,13 +72,13 @@ a{
 	width:93vw;
 	display:none;
 	flex-direction:row;
-	background-color:#191978;
-	border: 3px solid rgb(100,100,200);
+	background-color:rgb(50,50,50);
+	border: 3px solid rgb(100,100,100);
 	border-radius:10px;
 	padding: 1vh 0;
 	align-items:flex-end;
 	justify-content:center;
-	box-shadow:0 0 7px rgb(100,100,200);
+	box-shadow:0 0 7px rgb(100,100,100);
 	position:fixed;
 	top:0.8vh;
 	opacity:.9;
@@ -89,7 +89,7 @@ a{
 }
 
 #sticky-head a{
-	color:rgb(120,70,220);
+	color:rgb(120,120,120);
 }
 
 #sticky-head i{
@@ -104,15 +104,15 @@ a{
 }
 
 section{
-	background-color:rgb(15,15,65);
+	background-color:rgb(25,25,25);
 	color:white;
 	padding-bottom: 25px;
 	padding-right:15px;
 	padding-left:15px;
 	padding-top:1px;
-	border:2px solid rgb(100,100,200);
+	border:2px solid rgb(100,100,100);
 	border-radius:10px;
-	box-shadow:0 0 7px rgb(100,100,200);
+	box-shadow:0 0 7px rgb(100,100,100);
 	margin: 2vh 0;
 	display:none;
 }
@@ -142,7 +142,7 @@ section{
 
 .landing{
 	display:block;
-	background-image:url('/assets/head2.png');
+	background-image:url('/assets/landing.png');
 	background-size:cover;
 	border-radius:10px;
 }
@@ -165,13 +165,13 @@ footer{
 	color: white;
 	display:none;
 	flex-direction:column;
-	background-color:#191978;
-	border: 3px solid rgb(100,100,200);
+	background-color:rgb(50,50,50);
+	border: 3px solid rgb(100,100,100);
 	border-radius:10px;
 	padding: 2vh;
 	align-items:center;
 	justify-content:center;
-	box-shadow:0 0 7px rgb(100,100,200);
+	box-shadow:0 0 7px rgb(100,100,100);
 	
 }
 
@@ -210,7 +210,7 @@ footer{
 
 .right a{
 	margin-right:2vw;
-	color:rgb(120,70,220);
+	color:rgb(120,120,120);
 	
 }
 
