@@ -16,7 +16,7 @@ header{
 	align-items:center;
 	justify-content:center;
 	border: 3px solid rgb(100,100,100);
-	text-shadow: 0 0 15px blue;
+	text-shadow: 0 0 15px rgb(170,170,170);
 	display:none;
 	box-shadow:0 0 10px rgb(100,100,100);
 }
@@ -37,7 +37,7 @@ nav{
 .nav-link a{
 	display:block;
 	background-color:rgb(230,230,230);
-	box-shadow: 0 0 10px blue;
+	box-shadow: 0 0 10px rgb(220,220,220);
 	min-width:18vw;
 	padding:7px;
 	text-align:center;
@@ -45,7 +45,7 @@ nav{
 	margin-right:1vw;
 	font-style:none;
 	margin-top:0;
-	text-shadow: 0 0 5px rgb(200,200,250);
+	text-shadow: 0 0 5px rgb(170,170,170);
 	font-size:1.08rem;
 }
 
@@ -133,7 +133,7 @@ section{
 
 .library .sec-icon{
 	width:18vw;
-	color:rgb(120,70,220);
+	color:rgb(120,120,120);
 }
 
 .sec-title{
