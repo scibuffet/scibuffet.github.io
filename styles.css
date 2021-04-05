@@ -7,7 +7,7 @@ body{
 }
 
 header{
-	background-image:url('assets/head.jpg');
+	background-image:url('assets/head3.jpg');
 	background-size:cover;
 	min-height:20vh;
 	border-radius:10px; 
@@ -71,10 +71,9 @@ a{
 #sticky-head{
 	min-height:5vh;
 	width:93vw;
-	color: white;
 	display:none;
 	flex-direction:row;
-	background-color:rgb(25,25,120);
+	background-color:#191978;
 	border: 3px solid black;
 	border-radius:10px;
 	padding: 1vh 0;
@@ -90,6 +89,10 @@ a{
 	opacity:1;
 }
 
+#sticky-head a{
+	color:rgb(120,70,220);
+}
+
 #sticky-head i{
 	width:10vw;
 	margin-right:10vw;
@@ -102,7 +105,7 @@ a{
 }
 
 section{
-	background-color:rgb(10,10,53);
+	background-color:rgb(15,15,65);
 	color:white;
 	padding-bottom: 25px;
 	padding-right:15px;
@@ -112,7 +115,6 @@ section{
 	border-radius:5px;
 	margin: 2vh 0;
 	display:none;
-	box-shadow: 0 0 7px black;
 }
 
 .library{
@@ -141,7 +143,7 @@ section{
 
 .landing{
 	display:block;
-	background-image:url('/assets/head2.png');
+	background-image:url('/assets/landing.png');
 	background-size:cover;
 	border-radius:10px;
 }
@@ -164,7 +166,7 @@ footer{
 	color: white;
 	display:none;
 	flex-direction:column;
-	background-color:rgb(25,25,120);
+	background-color:#191978;
 	border: 3px solid black;
 	border-radius:10px;
 	padding: 2vh;
