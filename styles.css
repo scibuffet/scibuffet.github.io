@@ -111,9 +111,8 @@ section{
 
 .library{
 	display:flex;
-	flex-direction:column;
 	align-items:center;
-	justify-content:center;
+	justify-content:flex-start;
 	padding-bottom:1px;
 }
 
@@ -121,13 +120,18 @@ section{
 	display:flex;
 	align-items:center;
 	justify-content:flex-start;
-	min-height:13vh;
+	min-height:16vh;
 	font-weight:bold;
 	color:rgb(120,70,220);
+	font-variant:small-caps;
 }
 
 .library .sec-icon{
 	width:18vw;
+	color:rgb(120,70,220);
+}
+
+.sec-title{
 }
 
 .landing{
