@@ -5,7 +5,9 @@ let manageLoad = (homepage)=>{
 		let sections = document.querySelectorAll('section');
 		let footer = document.querySelector('footer');
 		header.style.display='flex';
-		footer.style.display='flex';
+		if (footer!=null){
+			footer.style.display='flex';
+		}
 		setInterval(()=>{
 			for (sec of sections){
 				if (window.innerWidth>500){
@@ -65,25 +67,25 @@ let manageLoad = (homepage)=>{
 }
 
 
-let manageStickyHead = ()=>{
+let manageStickyHead = (delay=8000)=>{
 	let stickyHeadDisplayManager = ()=>{
 		setInterval(()=>{
 			let body = document.querySelector('body');
-			let scrolledDist = body.scrollTop;
+			let scrolled_dist = body.scrollTop;
 			
-			let welcome = document.querySelector('#welcome');
-			let welcomeOffset = welcome.offsetTop;
+			let sec_one = document.querySelector('section');
+			let sec_one_offset = sec_one.offsetTop;
 			
 			let stickyHead = document.querySelector('#sticky-head');
 			
-			if (scrolledDist > 0 && scrolledDist > (welcomeOffset - window.innerHeight/50)){
+			if (scrolled_dist > 0 && scrolled_dist > (sec_one_offset - window.innerHeight/50)){
 				stickyHead.style.display = 'flex';
 			}
-			else if (scrolledDist === 0 || scrolledDist < (welcomeOffset - window.innerHeight/50)){
+			else if (scrolled_dist === 0 || scrolled_dist < (sec_one_offset - window.innerHeight/50)){
 				stickyHead.style.display = 'none';
 			}
 		},100);
 	}
 	
-	setTimeout(stickyHeadDisplayManager, 8000);
+	setTimeout(stickyHeadDisplayManager, delay);
 }
