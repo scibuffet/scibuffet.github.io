@@ -120,7 +120,7 @@ section{
 	display:flex;
 	align-items:center;
 	justify-content:flex-start;
-	min-height:13vh;
+	min-height:16vh;
 	font-weight:bold;
 	color:rgb(120,70,220);
 	font-variant:small-caps;
