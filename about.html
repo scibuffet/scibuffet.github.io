@@ -14,16 +14,17 @@
 		<header>
 			<h1>scibuffet</h1>
 			<nav>
-				<p class='nav-link'><a href='./index.html'>Home</a></p>
-				<p class='nav-link'><a href='./library.html'>Library</a></p>
-				<p class='nav-link active'><a href='#'>About</a></p>
+				<div class='nav-link'><a href='./index.html'>Home</a></div>
+				<div class='nav-link active'><a href='#'>Library</a></div>
+				<div class='nav-link'><a href='./about.html'>About</a></div>
 			</nav>
 		</header>
 		
 		<script src='./app.js'></script>
 		<script src="https://kit.fontawesome.com/a3a9954077.js" crossorigin="anonymous"></script>
 		<script>
-			loadManager(homepage=false);
+			manageLoad(homepage=false);
+			manageStickyHead();
 		</script>
 	</body>
 </html>
