@@ -16,10 +16,10 @@ header{
 	flex-direction:column;
 	align-items:center;
 	justify-content:center;
-	border: 3px solid black;
+	border: 3px solid rgb(100,100,200);
 	text-shadow: 0 0 15px blue;
 	display:none;
-	box-shadow:0 0 10px rgb(10,10,30);
+	box-shadow:0 0 10px rgb(100,100,200);
 }
 
 header h1{
@@ -111,8 +111,9 @@ section{
 	padding-right:15px;
 	padding-left:15px;
 	padding-top:1px;
-	border:2px solid black;
+	border:2px solid rgb(100,100,200);
 	border-radius:5px;
+	box-shadow:0 0 7px rgb(100,100,200);
 	margin: 2vh 0;
 	display:none;
 }
@@ -167,12 +168,12 @@ footer{
 	display:none;
 	flex-direction:column;
 	background-color:#191978;
-	border: 3px solid black;
+	border: 3px solid rgb(100,100,200);
 	border-radius:10px;
 	padding: 2vh;
 	align-items:center;
 	justify-content:center;
-	box-shadow:0 0 7px black;
+	box-shadow:0 0 7px rgb(100,100,200);
 	
 }
 
