@@ -1,9 +1,12 @@
 let manageLoad = (homepage)=>{
 
 	let displayAll = ()=>{
+		document.querySelector('body').style.backgroundColor='black';
+		
 		let header = document.querySelector('header');
 		let sections = document.querySelectorAll('section');
 		let footer = document.querySelector('footer');
+
 		header.style.display='flex';
 		if (footer!=null){
 			footer.style.display='flex';
@@ -26,6 +29,7 @@ let manageLoad = (homepage)=>{
 		
 		let landing = document.querySelector('.landing');
 		landing.style.height = `${0.9*window.innerHeight}`;
+		document.querySelector('body').style.backgroundColor = 'white';
 		landing.style.opacity = '1';
 
 		let paths = document.querySelectorAll('path');
