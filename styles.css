@@ -3,12 +3,14 @@ body{
 	padding:1vw;
 	font-size:1.15rem;
 	line-height:1.5;
+	margin:0;
 }
 
 header{
 	background-image:url('assets/head2.jpg');
 	background-size:cover;
 	min-height:20vh;
+	max-width:96vw;
 	border-radius:10px; 
 	color:white;
 	display:flex;
@@ -69,14 +71,13 @@ nav{
 }
 
 #sticky-head{
-	min-height:5vh;
-	width:93vw;
+	min-height:30px;
+	max-width:98vw;
 	display:none;
 	flex-direction:row;
 	background-color:rgb(50,50,50);
 	border: 3px solid rgb(100,100,100);
 	border-radius:10px;
-	padding: 1vh 0;
 	align-items:flex-end;
 	justify-content:center;
 	box-shadow:0 0 7px rgb(100,100,100);
@@ -94,10 +95,9 @@ nav{
 }
 
 #sticky-head i{
-	width:10vw;
-	margin-right:10vw;
-	margin-left:10vw;
-
+	width:32vw;
+	display:flex;
+	justify-content:center;
 }
 
 #sticky-head .active{
@@ -155,7 +155,7 @@ footer{
 
 .row{
 	display:flex;
-	width:94vw;
+	max-width:94vw;
 	padding:2vh 0;
 	align-items:center;
 	justify-content:center;
@@ -227,13 +227,14 @@ footer{
 
 .row.library{
 	display:flex;
+	max-width:96vw;
 	align-items:center;
 	justify-content:center;
 	padding: 0;
 }
 
 .row section{
-	width:41vw;
+	width:49vw;
 	height:33vh;
 	display:flex;
 	align-items:center;
@@ -261,6 +262,5 @@ footer{
 }
 
 .sec-title{
-	font-size:1.35rem;
 	text-align:center;
 }
