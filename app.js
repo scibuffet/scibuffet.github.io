@@ -1,4 +1,4 @@
-let manageLoad = (homepage)=>{
+let manageLoad = (homepage, responsiveSentinel=true)=>{
 
 	let displayAll = ()=>{
 		document.querySelector('body').style.backgroundColor='black';
@@ -12,7 +12,7 @@ let manageLoad = (homepage)=>{
 			footer.style.display='flex';
 		}
 		
-		if(homepage){
+		if(responsiveSentinel){
 			setInterval(()=>{
 				for (sec of sections){
 					if (window.innerWidth>500){
