@@ -11,18 +11,21 @@ let manageLoad = (homepage)=>{
 		if (footer!=null){
 			footer.style.display='flex';
 		}
-		setInterval(()=>{
-			for (sec of sections){
-				if (window.innerWidth>500){
-					sec.classList.add('tab-desktop');
-					sec.classList.remove('mobile');
+		
+		if(homepage){
+			setInterval(()=>{
+				for (sec of sections){
+					if (window.innerWidth>500){
+						sec.classList.add('tab-desktop');
+						sec.classList.remove('mobile');
+					}
+					else{
+						sec.classList.add('mobile');
+						sec.classList.remove('tab-desktop');
+					}
 				}
-				else{
-					sec.classList.add('mobile');
-					sec.classList.remove('tab-desktop');
-				}
-			}
-		},300);
+			},300);
+		}
 	}
 	
 	if (homepage){
