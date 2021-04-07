@@ -153,8 +153,8 @@ footer{
 
 .row{
 	display:flex;
-	max-width:94vw;
-	padding:2vh 0;
+	max-width:90vw;
+	padding:2vh 2vw;
 	align-items:center;
 	justify-content:center;
 }
@@ -166,7 +166,6 @@ footer{
 
 .left{
 	width:47vw;
-	margin-left:3vw;
 	text-shadow:0 0 12px black;
 	display:flex;
 	flex-direction:column;
@@ -179,7 +178,6 @@ footer{
 .right{
 	display:flex;
 	width:47vw;
-	margin-right:3vw;
 	justify-content:flex-end;
 	align-items:center;
 }
@@ -225,7 +223,7 @@ footer{
 
 .row.library{
 	display:flex;
-	max-width:96vw;
+	max-width:90vw;
 	align-items:center;
 	justify-content:center;
 	padding-top:0;
@@ -242,7 +240,7 @@ footer{
 	box-shadow:none;
 }
 
-.row .left{
+.row section.left{
 	margin-right:2vw;
 }
 
