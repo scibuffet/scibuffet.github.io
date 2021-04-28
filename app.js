@@ -31,7 +31,7 @@ let manageLoad = (homepage, responsiveSentinel=true)=>{
 	if (homepage){
 		
 		let landing = document.querySelector('.landing');
-		landing.style.height = `${0.9*window.innerHeight}`;
+		landing.style.height = `${0.95*window.innerHeight}`;
 		document.querySelector('body').style.backgroundColor = 'white';
 		landing.style.opacity = '1';
 
