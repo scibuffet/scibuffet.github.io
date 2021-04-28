@@ -214,7 +214,6 @@ footer{
 }
 
 .left{
-	border:1px solid red;
 	width:calc(var(--wd-sm) / 2 - 4vw);
 	text-shadow:0 0 12px black;
 	display:flex;
