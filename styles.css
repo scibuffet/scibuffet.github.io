@@ -30,7 +30,7 @@ header{
 	background-size:cover;
 	min-height:20vh;
 	max-width:var(--wd-sm);
-	border-radius:10px; 
+	border-radius:.85vw; 
 	color:white;
 	display:flex;
 	flex-direction:column;
@@ -235,6 +235,10 @@ footer{
 	width:calc(var(--wd-sm) / 2 - 4vw);
 	justify-content:flex-end;
 	align-items:center;
+}
+
+.right>*:nth-child(2){
+	margin-right:5px;
 }
 
 @media screen and (min-width:768px){
