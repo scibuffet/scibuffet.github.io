@@ -30,7 +30,7 @@ header{
 	background-size:cover;
 	min-height:20vh;
 	max-width:var(--wd-sm);
-	border-radius:.85vw; 
+	border-radius:10px; 
 	color:white;
 	display:flex;
 	flex-direction:column;
@@ -83,7 +83,7 @@ nav{
 
 @media screen and (min-width:768px){
 	.nav-link a{
-		min-width:calc(var(--wd-md) / 4.5);
+		min-width:calc(var(--wd-md) / 6);
 	}
 }
 
