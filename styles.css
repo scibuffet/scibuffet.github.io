@@ -31,6 +31,32 @@
 	--clr-sec-text: white;
 	
 	--clr-footer-bg: rgb(50,50,50);
+
+
+
+	--clr-border: rgb(100,100,100);
+	--clr-border-active: rgb(150,150,150);
+	
+	--clr-text-shadow: rgb(170,170,170);
+	--clr-box-shadow: rgb(100,100,100);
+	--clr-box-shadow-active: rgb(250,250,250);
+	
+	--clr-nav-link-bg: rgb(200,200,200);
+	--clr-nav-link-bg-active: white;
+	--clr-nav-link-bg-hover:rgb(80,80,80);
+	--clr-nav-link-text: rgb(100,100,100);
+	--clr-nav-link-text-hover: white;
+	
+	--clr-sticky-head-bg: rgb(50,50,50);
+	
+	--clr-link-text: rgb(150,150,150);
+
+	--clr-icon-link: rgb(120,120,120);
+	
+	--clr-sec-bg: rgb(25,25,25);
+	--clr-sec-text: white;
+	
+	--clr-footer-bg: rgb(50,50,50);
 }
 
 *{
@@ -45,6 +71,7 @@ body{
 	margin:0 1px;
 	width:var(--wd-sm);
 	margin:0 auto;
+	background:black;
 }
 
 @media screen and (min-width:768px){
@@ -116,7 +143,7 @@ nav{
 }
 
 .active a{
-	background-color:white;
+	background-color: var(--clr-nav-link-bg-active);
 	border:1px solid var(--clr-border-active);
 	box-shadow: 0 0 15px var(--clr-box-shadow-active);
 }
@@ -139,9 +166,9 @@ nav{
 	border-radius:10px;
 	justify-content:center;
 	box-shadow:0 0 7px var(--clr-box-shadow);
+	opacity:.9;
 	position:fixed;
 	top:0.8vh;
-	opacity:.9;
 }
 
 @media screen and (min-width:768px){
