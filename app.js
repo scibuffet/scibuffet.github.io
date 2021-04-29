@@ -1,7 +1,6 @@
 let manageLoad = (homepage, responsiveSentinel=true)=>{
 
 	let displayAll = ()=>{
-		document.querySelector('body').style.backgroundColor='black';
 		
 		let header = document.querySelector('header');
 		let sections = document.querySelectorAll('section');
@@ -57,11 +56,13 @@ let manageLoad = (homepage, responsiveSentinel=true)=>{
 		}
 
 		let vanishManager = ()=>{
+			
 			let timer = setInterval(vanishLanding,100);
 			let clearTimer = ()=> {
 				clearInterval(timer);
 				let landing = document.querySelector('.landing');
 				landing.style.display='none';
+				document.querySelector('body').style.backgroundColor = 'black';
 			}
 			setTimeout(clearTimer, 2000);
 		}
