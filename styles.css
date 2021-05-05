@@ -7,14 +7,14 @@
 	--sec-min-ht-md:33vh;
 	
 	
-	--clr-bg: black;
+	--clr-bg: rgb(25,25,25);
 	--clr-border: none;
 	--clr-border-active: none;
 	
 	--clr-text-shadow: rgb(170,170,170);
-	--clr-box-shadow: none;
+	--clr-box-shadow: black;
 	--clr-box-shadow-active: rgb(250,250,250);
-	--box-shadow: 0 0 10px var(--clr-box-shadow);
+	--box-shadow: 3px 3px 7px var(--clr-box-shadow);
 	
 	--clr-nav-link-bg: rgb(200,200,200);
 	--clr-nav-link-bg-active: white;
@@ -29,7 +29,7 @@
 
 	--clr-icon-link: rgb(120,120,120);
 	
-	--clr-sec-bg: rgb(25,25,25);
+	--clr-sec-bg: rgb(50,50,50);
 	--clr-sec-text: white;
 	--clr-sec-icon: var(--clr-icon-link);
 	
