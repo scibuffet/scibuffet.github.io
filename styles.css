@@ -27,13 +27,13 @@
 	
 	--clr-link-text: rgb(150,150,150);
 
-	--clr-icon-link: rgb(120,120,120);
+	--clr-icon-link: rgb(130,130,130);
 	
 	--clr-sec-bg: rgb(50,50,50);
 	--clr-sec-text: white;
 	--clr-sec-icon: var(--clr-icon-link);
 	
-	--clr-footer-bg: rgb(50,50,50);
+	--clr-footer-bg: rgb(60,60,60);
 	--clr-footer-text:white;
 	--clr-footer-border: var(--clr-border);
 }
