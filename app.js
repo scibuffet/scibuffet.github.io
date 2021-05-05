@@ -1,3 +1,14 @@
+let theme = 'dark';
+
+let bg = document.querySelector('#bg');
+let bottom = document.querySelector('#bottom');
+bottom.addEventListener('click', ()=>{
+	document.querySelector('body').style.backgroundColor = 'white';
+});
+
+//bg.style.height = `${bottom.offsetTop}px`;
+console.log(bottom.offsetTop);
+
 let manageLoad = (homepage, responsiveSentinel=true)=>{
 
 	let displayAll = ()=>{
@@ -5,6 +16,7 @@ let manageLoad = (homepage, responsiveSentinel=true)=>{
 		let header = document.querySelector('header');
 		let sections = document.querySelectorAll('section');
 		let footer = document.querySelector('footer');
+
 
 		header.style.display='flex';
 		if (footer!=null){
@@ -25,6 +37,7 @@ let manageLoad = (homepage, responsiveSentinel=true)=>{
 				}
 			},300);
 		}
+		
 	}
 	
 	if (homepage){
@@ -62,7 +75,8 @@ let manageLoad = (homepage, responsiveSentinel=true)=>{
 				clearInterval(timer);
 				let landing = document.querySelector('.landing');
 				landing.style.display='none';
-				document.querySelector('body').style.backgroundColor = 'black';
+				let bgcolor = theme=='dark'?'black':'#CCFFCB';
+				document.querySelector('body').style.backgroundColor = bgcolor;
 			}
 			setTimeout(clearTimer, 2000);
 		}
