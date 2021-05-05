@@ -113,6 +113,7 @@ nav{
 	color: var(--clr-nav-link-text);
 	background-color: var(--clr-nav-link-bg);
 	min-width:calc(var(--wd-sm) / 4.5);
+	min-height:5vh;
 	padding:7px;
 	text-align:center;
 	border-radius:5px;
