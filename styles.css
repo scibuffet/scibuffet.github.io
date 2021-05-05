@@ -8,11 +8,11 @@
 	
 	
 	--clr-bg: black;
-	--clr-border: rgb(100,100,100);
-	--clr-border-active: rgb(150,150,150);
+	--clr-border: none;
+	--clr-border-active: none;
 	
 	--clr-text-shadow: rgb(170,170,170);
-	--clr-box-shadow: rgb(100,100,100);
+	--clr-box-shadow: none;
 	--clr-box-shadow-active: rgb(250,250,250);
 	--box-shadow: 0 0 10px var(--clr-box-shadow);
 	
@@ -212,7 +212,7 @@ section i{
 
 .landing{
 	display:block;
-	background-image:url('/assets/landing_.png');
+	background-image:url('/assets/landing.png');
 	background-size:cover;
 	border-radius:10px;
 	height:100vh;
