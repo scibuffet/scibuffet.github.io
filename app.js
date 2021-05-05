@@ -75,7 +75,7 @@ let manageLoad = (homepage, responsiveSentinel=true)=>{
 				clearInterval(timer);
 				let landing = document.querySelector('.landing');
 				landing.style.display='none';
-				let bgcolor = theme=='dark'?'black':'#CCFFCB';
+				let bgcolor = theme=='dark'?'rgb(35,35,35)':'#CCFFCB';
 				document.querySelector('body').style.backgroundColor = bgcolor;
 			}
 			setTimeout(clearTimer, 2000);
