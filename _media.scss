@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px){
+	body{
+		width: $wd-md-lg;
+	}
+	
+	header{
+		max-width:$wd-md-lg;
+		
+		h1{
+			font-size:5rem;
+		}
+	}
+	
+	#sticky-head{
+		width:$wd-md-lg - 2vw;
+		
+		i{
+			width:$wd-md-lg/3 - 1vw;
+		}
+	}
+	
+	.row{
+		width:$wd-md-lg;
+		
+		&.library{
+			max-width: $wd-md-lg - 5vw;
+		}
+		
+		section{
+			width:$wd-md-lg/2;
+		}
+		
+		.sec-icon{
+			width:$wd-md-lg/6;
+		}
+	}
+	
+	.left{
+		width:$wd-md-lg/2 - 2vw;
+	}
+	
+	.right{
+		width:$wd-md-lg/2 - 2vw;
+	}
+	
+	nav .nav-link a{
+		min-width: $wd-md-lg/6;
+	}
+}

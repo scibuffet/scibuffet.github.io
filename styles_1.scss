@@ -1,0 +1,276 @@
+@import 'config';
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: $font-stack;
+	padding:2vh 1vw;
+	font-size: $fs-default;
+	line-height: $line-ht;
+	width: $wd-sm;
+	margin: 0 auto;
+	background: $clr-bg;
+	
+	*{
+		transition: background 270ms ease-in-out,
+					color 270ms ease-in-out;
+	}
+}
+
+header{
+	background-image: url('assets/head2.jpg');
+	background-size:cover;
+	min-height: 20vh;
+	max-width: $wd-sm;
+	border-radius: $bdr-rad;
+	color: $clr-text;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:center;
+	box-shadow: $box-shadow;
+	display:none;
+	
+	h1{
+		font-family: 'Rochester', cursive;
+		font-size: 3.5rem;
+	}
+}
+
+a{
+	text-decoration:none;
+	font-weight:bold;
+	color: $clr-link-text;
+}
+
+nav{
+	margin-bottom:2vh;
+	
+	.nav-link{
+		display: inline-block;
+		
+		&.active a{
+			background: $clr-nav-link-bg-act;
+			box-shadow: 0 0 15px $clr-box-shadow-act;
+		}
+		
+		a{
+			display:block;
+			color: $clr-nav-link-text;
+			background: $clr-nav-link-bg;
+			min-width: $wd-sm / 4.5;
+			min-height: 40px;
+			padding: 7px;
+			text-align: center;
+			border-radius: $bdr-rad / 2;
+			margin-right: 1vw;
+			font-style: none;
+			margin-top:0;
+			font-size: $fs-default*.9;
+			
+			&:hover{
+				background: $clr-nav-link-bg-hov;
+				color: $clr-nav-link-text-hov;
+				box-shadow: 0 0 3px white;
+				opacity:1;
+			}
+		}
+	}
+}
+
+#sticky-head{
+	min-height:30px;
+	width: $wd-sm - 2vw;
+	display:none;
+	flex-direction:row;
+	background: $clr-sticky-bg;
+	border-radius: $bdr-rad;
+	justify-content: center;
+	box-shadow: 0 0 7px $clr-box-shadow;
+	opacity:.9;
+	position:fixed;
+	top:.8vh;
+	z-index:10;
+	
+	&:hover{
+		opacity:1;
+	}
+	
+	a{
+		color: $clr-icon-link;
+	}
+	
+	i{
+		width: ($wd-sm / 3) - 1vw;
+		display:flex;
+		justify-content:center;
+	}
+	
+	.active{
+		color: $clr-sticky-act;
+	}
+}
+
+section{
+	background: $clr-sec-bg;
+	color: $clr-text;
+	padding:15px;
+	padding-bottom:25px;
+	padding-top:1px;
+	min-height: 33vh;
+	margin:2vh 0;
+	border-radius:$bdr-rad;
+	box-shadow: $box-shadow;
+	display:none;
+	
+	i{
+		color: $clr-sec-icon;
+		margin-bottom:10px;
+	}
+}
+
+.landing{
+	display:block;
+	background-image: url('/assets/landing.png');
+	background-size:cover;
+	border-radius:10px;
+	height:95vh;
+}
+
+svg{
+	position:absolute;
+	top:50vh;
+	left:50vw;
+	transform:translate(-50%,-50%);
+}
+
+@keyframes textLoad{
+	to{
+		stroke-dashoffset:0;
+	}
+}
+
+footer{
+	min-height:40vh;
+	color:$clr-text;
+	display:none;
+	flex-direction:column;
+	background: $clr-footer-bg;
+	border-radius:$bdr-rad;
+	box-shadow: $box-shadow;
+	padding:2vh;
+	align-items:center;
+	justify-content:center;
+}
+
+.row{
+	display:flex;
+	width:$wd-sm;
+	padding:2vh 0;
+	align-items:center;
+	justify-content:center;
+	
+	&.to-top a{
+		color:white;
+		text-shadow:0 0 10px blue;
+	}
+	
+	&.library{
+		display:flex;
+		max-width:$wd-sm - 5vw;
+		align-items:center;
+		justify-content:center;
+		padding-top:0;
+		padding-bottom:0;
+	}
+	
+	section{
+		width: $wd-sm/2;
+		padding:20px;
+		height:33vh;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		margin:2vh 0;
+		
+		&.left{
+			margin-right:2vw;
+		}
+	}
+	
+	.sec-body{
+		display:flex;
+		padding-bottom:1px;
+		flex-direction:column;
+		align-items:center;
+		justify-content:center;
+	}
+	
+	.sec-icon{
+		width:$wd-sm/6;
+		color:$clr-icon-link;
+		display:flex;
+		justify-content:center;
+	}
+}
+
+.left{
+	width: ($wd-sm/2) - 4vw;
+	display:flex;
+	flex-direction:column;
+	
+	h2{
+		margin-top:0vh;
+	}
+}
+
+.right{
+	display:flex;
+	width: ($wd-sm/2) - 4vw;
+	justify-content:flex-end;
+	align-items:center;
+	
+	&>*:nth-child(2){
+		margin-right:5px
+	}
+	
+	a{
+		margin-right:2vw;
+		color:$clr-icon-link;
+	}
+}
+
+.tab-desktop{
+	display:flex;
+	align-items:center;
+	padding:4vh;
+	line-height: $line-ht*1.25;
+	
+	.sec-head{
+		width:30vw;
+		padding-right:10vh;
+	}
+	
+	.sec-body{
+		width:70vw;
+	}
+}
+
+.mobile{
+	display:block;
+}
+
+.content{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+
+.sec-title{
+	text-align:center;
+}
+
+@import 'media';
