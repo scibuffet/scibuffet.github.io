@@ -259,6 +259,10 @@ footer {
     font-size: 5rem;
   }
 
+  nav {
+    margin-bottom: 4vh;
+  }
+
   #sticky-head {
     width: 70vw;
   }
