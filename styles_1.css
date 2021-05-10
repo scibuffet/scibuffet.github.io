@@ -26,7 +26,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 1.75px 3.55px 3px black;
+  box-shadow: 3.5px 5px 3px black;
   display: none;
 }
 header h1 {
@@ -109,7 +109,7 @@ section {
   min-height: 33vh;
   margin: 2vh 0;
   border-radius: 10px;
-  box-shadow: 1.75px 3.55px 3px black;
+  box-shadow: 3.5px 5px 3px black;
   display: none;
 }
 section i {
@@ -144,7 +144,7 @@ footer {
   flex-direction: column;
   background: #3c3c3c;
   border-radius: 10px;
-  box-shadow: 1.75px 3.55px 3px black;
+  box-shadow: 3.5px 5px 3px black;
   padding: 2vh;
   align-items: center;
   justify-content: center;
